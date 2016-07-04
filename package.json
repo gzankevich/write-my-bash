@@ -1,0 +1,7 @@
+{
+  "name": "write-my-bash",
+  "version": "preview",
+  "description": "Bash scripting done right",
+  "install": "make install",
+  "global": "true"
+}
