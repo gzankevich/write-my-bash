@@ -4,9 +4,8 @@ all: install
 
 .PHONY: install
 install: 
-	mkdir -p $(PREFIX)/lib/write-my-bash
-	ln -sf lib/* $(PREFIX)/lib/write-my-bash/
+	ln -sf src/* $(PREFIX)/bin/
 
 .PHONY: uninstall
 uninstall: 
-	rm -f $(PREFIX)/lib/write-my-bash
+	rm -f $(PREFIX)/bim/write-my-bash
